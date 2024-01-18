@@ -1,0 +1,84 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/bg-header.jpg") no-repeat 50% 50%;
+    top: 0;
+    position: fixed;
+    z-index: -1;
+}
+.body{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8rem;
+}
+.body .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.body h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 5rem;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    transition: 0.8s;
+}
+.body h3{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    -webkit-text-stroke-color: black;
+    transition: 0.8s;
+}
+
+@media(max-width:850px){
+    .body h1{
+        font-size: 3.5rem;
+        transition: 0.8s;
+    }
+    .body h3{
+        font-size: 1.5rem;
+        transition: 0.8s;
+    }
+}
+
+.body .btnsec{
+    display: flex;
+    gap: 1rem;
+}
+.body button{
+    display: inline-block;
+    padding: 1rem;
+    color: #000;
+    font-size: 1rem;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: #C0C0C0;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.body button:hover{
+    color: #fff;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: rgba(0,0,0, 0.9);
+    transform:scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+}
+
+.header-border{
+    width: 100%;
+    height: 2rem;
+    background-color: black;
+}

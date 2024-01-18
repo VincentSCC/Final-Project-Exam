@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Trebuchet MS', sans-serif;
+    user-select: none;
+}
+.intro-divider {
+    width: 100%;
+    border-top: 1px solid #606060;
+    border-bottom: 1px solid rgb(107, 107, 107);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #848484; 
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: black; 
+}
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
